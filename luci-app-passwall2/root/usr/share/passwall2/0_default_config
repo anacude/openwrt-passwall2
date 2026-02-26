@@ -38,7 +38,7 @@ config global_xray
 	option sniffing_override_dest '0'
 
 config global_other
-	option auto_detection_time 'tcping'
+	option auto_detection_time 'icmp'
 	option show_node_info '0'
 
 config global_rules
