@@ -10,12 +10,8 @@ permissions:
 
 jobs:
   build_passwall2:
-    name: Build Passwall2 [${{ matrix.ver }}]
+    name: Build Passwall2
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        ver: [ipk, apk]
     steps:
       - name: Install Packages
         run: |
